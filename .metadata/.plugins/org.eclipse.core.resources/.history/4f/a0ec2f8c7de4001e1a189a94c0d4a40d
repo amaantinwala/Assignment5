@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Assignment 5 - 3</title>
+</head>
+<body>
+<h1>Login page</h1>
+    <form method="post" action="loginServlet">
+        <div>
+            <label>Enter username :</label>
+            <input type="text" name="uname">
+        </div>
+        <div>
+            <label>Enter password :</label>
+            <input type="password" name="passwd">
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
